@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Music Player Website</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+        header {
+            background-color: #333;
+            color: #fff;
+            padding: 20px;
+            text-align: center;
+        }
+        main {
+            padding: 20px;
+        }
+        audio {
+            width: 100%;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Music Player</h1>
+    </header>
+    <main>
+        <h2>Now Playing</h2>
+        <audio controls>
+            <source src="your_song.mp3" type="audio/mpeg">
+            Your browser does not support the audio element.
+        </audio>
+        <h2>Playlist</h2>
+        <ul>
+            <li><a href="baby-mandala-169039.mp3">Song 1</a></li>
+            <li><a href="song2.mp3">Song 2</a></li>
+            <li><a href="song3.mp3">Song 3</a></li>
+        </ul>
+    </main>
+</body>
+</html>
